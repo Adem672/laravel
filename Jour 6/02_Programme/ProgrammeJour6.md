@@ -757,7 +757,7 @@ Route::get('/', function () {
 
 Lançons l'application et cliquons sur un des boutons verts `Voir` pour découvrir le détail d'un utilisateur :
 
-![FicheUtilisateur](img\FicheUtilisateur.png)
+img\FicheUtilisateur.png
 
 ## Modification d'un utilisateur
 
