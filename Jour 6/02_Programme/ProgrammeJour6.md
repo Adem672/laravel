@@ -867,7 +867,7 @@ Sans oublier (`use App\Http\Requests\UserUpdateRequest;`) :slightly_smiling_face
 
 C'est bon, nous pouvons tester la modification d'un utilisateur.
 
-![ModificationUtilisateur](img\ModificationUtilisateur.png)
+![ModificationUtilisateur](img/ModificationUtilisateur.png)
 
 ## Suppression d'un utilisateur
 
