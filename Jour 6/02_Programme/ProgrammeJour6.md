@@ -557,7 +557,7 @@ localhost:8000/user
 
 Nous découvrons le résultat (dont le contenu dépend des tests effectués avec tinker ou DB Browser ;-) :
 
-![VueIndex](img\VueIndex.png)
+![VueIndex](img/VueIndex.png)
 
 Nous pouvons maintenant passer à la vue permettant de créer un nouvel utilisateur (`view_create.blade.php`)
 
@@ -689,21 +689,21 @@ Avant de tester la création d'un nouvel utilisateur nous devons modifier quelqu
 
 Pour tester notre vue de création d'un utilisateur, nous pouvons lancer notre application et choisir la route `/user` et cliquer sur le bouton `Ajouter un utilisateur`
 
-![AjouterUtilisateur](img\AjouterUtilisateur.png)
+![AjouterUtilisateur](img/AjouterUtilisateur.png)
 
 Nous découvrons notre formulaire de saisie d'un nouvel utilisateur :
 
-![NouvelUtilisateur](img\NouvelUtilisateur.png)
+![NouvelUtilisateur](img/NouvelUtilisateur.png)
 
 Nous pouvons sans autre le remplir et cliquer sur le bouton `Envoyer`
 
 Un message de confirmation nous informe que l'utilisateur a été créé :
 
-![Confirmation](img\Confirmation.png)
+![Confirmation](img/Confirmation.png)
 
 Pour découvrir une fonctionnalité que nous avons implémenté, il faut que nous disposions de plus de quatre utilisateurs. Ajoutons autant d'utilisateurs que nécessaire pour découvrir la barre de navigation !
 
-![BarreNavigation](img\BarreNavigation.png)
+![BarreNavigation](img/BarreNavigation.png)
 
 C'est chouette non ? :smiley:
 
@@ -757,7 +757,7 @@ Route::get('/', function () {
 
 Lançons l'application et cliquons sur un des boutons verts `Voir` pour découvrir le détail d'un utilisateur :
 
-![FicheUtilisateur](img\FicheUtilisateur.png)
+![Fiche Utilisateur](img/FicheUtilisateur.png)
 
 ## Modification d'un utilisateur
 
@@ -867,7 +867,7 @@ Sans oublier (`use App\Http\Requests\UserUpdateRequest;`) :slightly_smiling_face
 
 C'est bon, nous pouvons tester la modification d'un utilisateur.
 
-![ModificationUtilisateur](img\ModificationUtilisateur.png)
+![ModificationUtilisateur](img/ModificationUtilisateur.png)
 
 ## Suppression d'un utilisateur
 
