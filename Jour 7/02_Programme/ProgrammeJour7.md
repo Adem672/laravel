@@ -471,11 +471,11 @@ A l'aide de l'outil `DB Browser for Sqlite` nous pouvons constater que nos table
 
 Voici les enregistrements de la table `users` :
 
-![Users](img\Users.png)
+![Users](img/Users.png)
 
 Voici quelques enregistrements (16/100) de la table articles :
 
-![Articles](img\Articles.png)
+![Articles](img/Articles.png)
 
 Nous pouvons bien sûr aussi utiliser l'outil `tinker` pour s'assurer de la présence des enregistrements dans nos deux tables (`users` et `articles`)  
 
@@ -912,7 +912,7 @@ class AppServiceProvider extends ServiceProvider
 
 Voici ce que l'on obtient :
 
-![](img\ListeArticles.png)
+![](img/ListeArticles.png)
 
 Pour qu'un utilisateur puisse créer des articles, il doit se connecter.
 
@@ -1021,7 +1021,7 @@ Dans le répertoire `/resources/views` nous pouvons voir (entre autre) un nouvea
 
 Pour voir que l'authentification est fonctionnelle, il suffit de lancer notre application.
 
-![Authentification](img\Authentification.png)
+![Authentification](img/Authentification.png)
 
 Nous pouvons observer en haut à droite de la fenêtre, deux nouveaux liens `Log in` et `Register`
 
@@ -1032,7 +1032,7 @@ Cliquons sur `Log In` et identifions nous avec les informations suivantes :
 
 Nous obtenons le résultat suivant :
 
-![Logged](img\Logged.png)
+![Logged](img/Logged.png)
 
 Pour rediriger l'utilisateur après son identification ou son inscription nous pouvons modifier deux contrôleurs qui ont été ajouté lors de la mise en place de l'authentification.
 
