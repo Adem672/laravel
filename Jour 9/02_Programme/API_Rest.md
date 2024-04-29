@@ -72,7 +72,7 @@ use Illuminate\Support\Facades\Route;
 //    return $request->user();
 //})->middleware('auth:sanctum');
 
-Route::apiResource('/personne', function() {
+Route::get('/personne', function() {
     $personne = [
         'prenom' => 'Joe',
         'nom' => 'Bar',
